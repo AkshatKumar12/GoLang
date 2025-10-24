@@ -41,4 +41,9 @@ func main(){
 		fmt.Println(slice2)
 		fmt.Println(len(slice2))
 
+
+		//   ':' is slice operator, takes start, stop,  return array's value from start to end, start is inclusive
+
+		fmt.Println(slice2[0:4])
+
 }
